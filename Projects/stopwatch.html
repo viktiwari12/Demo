@@ -1,0 +1,39 @@
+  <!--In this project we will make a stopwatch 
+        We will do the following task
+            A "Start" button to start the stopwatch running.
+            A "Stop" button to pause/stop it.
+            A "Reset" button to reset the time back to 0.
+T           he time display to show the number of seconds elapsed, rather than the actual time.
+    -->
+
+    <!DOCTYPE html>
+    <html lang="eng-us">
+        <head>
+            <meta charset="UTF-8";>
+            <meta name="viewpoint" content="width = device-width, initial-scale= 1.0">
+            <title>stopwatch</title>
+        </head>
+        <body>
+            <div id = "stopwatch">
+                00 : 00 :00 
+            </div>
+            <ul id = "buttons">
+
+                <li><button type ="button", onclick= "startTimer()">Start </button></li>
+                <li><button type ="button", onclick="stopTimer()">STOP</button><br><br</li>>
+                <li><button type ="button", onclick="resetTimer()">Reset</button></li>
+                </ul>
+            <style>
+                body
+                {
+                    background-color: bisque;
+                }
+            </style>
+            
+            <p class = "clock"></p>
+
+
+            <script src = "timer.js"></script>
+            
+        </body>
+    </html>
